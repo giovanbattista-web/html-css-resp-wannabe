@@ -1,0 +1,22 @@
+@media (max-width: 480px)  {
+    .container  {
+        width: 100%;
+     }
+ }
+ 
+ .lessons .col, .steps .col  {
+    width : 100%;
+  }
+
+  .why-us .col  {
+         width: 100%;
+   }
+
+  .why-us  { 
+        padding : 3rem 0;
+        margin-bottom : 0;
+  }
+
+  steps  {
+    margin : 0;
+   }
