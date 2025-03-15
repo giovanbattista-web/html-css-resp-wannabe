@@ -141,19 +141,61 @@ img {
                                         width:100%;
                                        }
 
- .row {
+.row {
       flex-wrap:wrap;
       gap : 30px;
       }
 
- .steps {
+.steps {
          margin-bottom: 0;
         }
                            
- .why-us {
+.why-us {
          background-color: black;
          padding : 3rem 0;
          margin-bottom: 0;
         }
 
                          }
+
+/* esercizio fatto dal professore */
+@media screen and (max-width: 768px){
+    .container {
+            width:100%;
+    }
+}
+
+@media screen and (max-width:480px){
+ .row{
+    flex-direction:column;
+ }
+
+ .lessons .col,
+ .steps .col,
+ .why-us .col{
+           width: 100%;
+           margin-bottom: 40px;
+ }
+
+ .lessons .col:last-child,
+ .steps .col:last-child,
+ .why-us .col:last-child{
+                    margin-bottom:0px;
+ }
+
+ .steps {
+       margin-bottom:0;
+ }
+
+ .why-us{
+       background-color: #222222;
+       padding:3rem 0;
+        }
+}
+
+/* bonus fatto dal professore */
+@media screen and (min-width:768px) and (max-width:1160px){
+                      .container {
+                               width:100%;
+                      }
+}
